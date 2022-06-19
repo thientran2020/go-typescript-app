@@ -1,0 +1,13 @@
+GET http://localhost:4040/healthcheck
+
+###
+POST http://localhost:4040/api/todos
+Content-Type: application/json 
+
+{
+    "title": "More Testing",
+    "body": "Tutorial 2"
+}
+
+###
+PATCH  http://localhost:4040/api/todos/1/done
