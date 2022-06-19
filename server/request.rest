@@ -11,3 +11,6 @@ Content-Type: application/json
 
 ###
 PATCH  http://localhost:4040/api/todos/1/done
+
+###
+GET http://localhost:4040/api/todos
